@@ -2,14 +2,14 @@
 FROM node:20-alpine as build
 WORKDIR /app
 
-# Copy package files from the subfolder
-COPY "Tally Voice Assistant + Brand DNA/package*.json" ./
+# Copy package files
+COPY package*.json ./
 
 # Install dependencies
 RUN npm install
 
-# Copy all files from the subfolder to /app
-COPY "Tally Voice Assistant + Brand DNA/" ./
+# Copy all files
+COPY . .
 
 # Build the project
 RUN npm run build
