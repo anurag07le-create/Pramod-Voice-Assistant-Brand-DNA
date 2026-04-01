@@ -1,0 +1,685 @@
+﻿Trigger ID,Brand Name,Report Link,HTML
+2JqX5I1apubphyMXisXZ3hZCM,Samsung Galaxy Smartphones,https://drive.google.com/uc?export=download&id=1-ufc37s5yUJ0TafjQgJ8iwsUrrVwkEDm,"<!doctype html>
+<!-- CONVERSION: set printBackground=true; wait for window.renderComplete === true; allow 1200ms buffer -->
+<!-- CONVERSION: printBackground:true; waitFor: window.renderComplete === true; safetyTimeout:1400ms -->
+<html lang=""en"">
+<head>
+    <meta charset=""utf-8"" />
+    <meta name=""viewport"" content=""width=device-width,initial-scale=1""/>
+    <title>Strategic Brand Report â Samsung Electronics India | Samsung Galaxy Smartphones</title>
+
+    <script src=""https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js""></script>
+
+    <style>
+        /* PDF conversion settings */
+        @page { size: A4; margin: 20mm; }
+
+        html,body {
+            height: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12pt;
+            color: #0f2438;
+            background: #ffffff;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            padding: 0;
+            margin: 0;
+        }
+
+        .page {
+            max-width: 800px;
+            margin: 18mm auto;
+            padding: 18px 20px;
+            background: #fff;
+            box-shadow: none;
+            color: #0f2438;
+        }
+
+        header h1 {
+            font-size: 20px;
+            margin-bottom: 6px;
+        }
+        header p.lead {
+            font-size: 12px;
+            margin-bottom: 18px;
+            color: #375a6b;
+        }
+
+        section {
+            margin-bottom: 18px;
+            page-break-inside: avoid;
+        }
+
+        h2 {
+            font-size: 14px;
+            margin: 12px 0;
+            color: #1E7B5E;
+        }
+        h3 {
+            font-size: 12.5px;
+            margin: 10px 0;
+            color: #184250;
+        }
+        p { margin: 6px 0; line-height: 1.45; color: #1b3a5c; }
+
+        .charts { display: flex; flex-direction: column; gap: 14px; }
+        .chart-card {
+            border: 1px solid #e6eef1;
+            border-radius: 8px;
+            padding: 12px;
+            background: #fbfeff;
+            box-shadow: 0 2px 6px rgba(10,30,40,0.04);
+            page-break-inside: avoid;
+        }
+
+        .chart-title { font-weight: 700; color: #0f2438; margin-bottom: 6px; }
+        .chart-desc { font-size: 11px; color: #375a6b; margin-bottom: 8px; }
+
+        .chart-area { width: 100%; max-width: 800px; height: 260px; display:block; }
+        canvas { display:block; width:100% !important; max-width:800px; height:260px !important; }
+
+        .summary {
+            background: linear-gradient(90deg,#e8f6f2,#ffffff);
+            border-left: 4px solid #1E7B5E;
+            padding: 10px;
+            margin-top: 8px;
+            font-size: 11px;
+            color: #184250;
+        }
+
+        .actions { margin-top: 8px; font-size: 11px; color:#1b3a5c; }
+        .actions ul { margin-left: 18px; }
+
+        table.data-summary {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            font-size: 11px;
+        }
+        table.data-summary th, table.data-summary td {
+            border: 1px solid #e6eef1;
+            padding: 6px;
+            text-align: left;
+        }
+        table.data-summary th { background: #f5fbfa; font-weight:700; }
+
+        .kpi-row { display:flex; gap:12px; flex-wrap:wrap; margin-top:10px; }
+        .kpi { background:#f3f9f7; padding:8px 10px; border-radius:6px; font-weight:700; color:#0f2438; font-size:11px; }
+
+        /* Gantt legend */
+        .gantt-legend { display:flex; gap:12px; margin-top:8px; font-size:11px; }
+        .legend-item { display:flex; gap:6px; align-items:center; }
+        .legend-swatch { width:18px; height:10px; border-radius:2px; display:inline-block; }
+
+        /* print safe */
+        @media print {
+            .page { box-shadow:none; margin:0; }
+            header p.lead { color: #000; }
+            .chart-card { background: #fff; border:1px solid #ddd; }
+        }
+
+        /* hidden render-ready */
+        #render-ready { display:none; }
+
+    </style>
+</head>
+<body>
+    <div class=""page"" role=""document"" aria-labelledby=""report-title"">
+        <header>
+            <h1 id=""report-title"">Strategic Brand Report â Samsung Galaxy Smartphones (India Urban Markets)</h1>
+            <p class=""lead"">Prepared for: Samsung Electronics India â Objective: Strengthen brand preference and drive sales in Tier 1 &amp; Tier 2 urban markets. <strong>Report includes data-driven strategy, KPI targets and 90-day execution plan.</strong></p>
+        </header>
+
+        <!-- Embedded client form / trigger object (placeholder for pipeline) -->
+        <script id=""client-form"" type=""application/json"">{""method"":""POST"",""headers"":{""connection"":""Upgrade"",""host"":""studio.pucho.ai"",""content-length"":""2699"",""x-real-ip"":""124.123.122.49"",""x-forwarded-for"":""124.123.122.49"",""x-forwarded-proto"":""https"",""sec-ch-ua-platform"":""\""Windows\"""",""user-agent"":""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"",""sec-ch-ua"":""\""Not)A;Brand\"";v=\""8\"", \""Chromium\"";v=\""138\"", \""Google Chrome\"";v=\""138\"""",""content-type"":""application/json"",""sec-ch-ua-mobile"":""?0"",""accept"":""*/*"",""origin"":""http://localhost:5173"",""sec-fetch-site"":""cross-site"",""sec-fetch-mode"":""cors"",""sec-fetch-dest"":""empty"",""referer"":""http://localhost:5173/"",""accept-encoding"":""gzip, deflate, br, zstd"",""accept-language"":""en-US,en;q=0.9"",""priority"":""u=1, i""},""body"":{""clientName"":""Samsung Electronics India"",""brandProduct"":""Samsung Galaxy Smartphones"",""problemStatement"":""Increasing competition from other smartphone brands like Apple, OnePlus, and Xiaomi has led to a decline in market share for mid-range and premium Samsung smartphones. The goal is to strengthen brand preference and drive sales in key urban markets."",""targetConsumer"":""\""\""\""Demographics: Age 18â45, urban professionals and students, middle to upper-middle income, tech-savvy.\n\nPsychographics: Aspirational, values innovation, wants status and convenience, early adopters of technology.\n\nGeographic: Tier 1 and Tier 2 cities in India.\n\nBehavioral: Frequent smartphone upgraders, online shoppers, active on social media, influenced by peers and tech reviews.\""\""\"""",""singleMindedProposition"":""âSamsung Galaxy empowers you with cutting-edge technology that keeps you ahead in life.â"",""desiredAction"":""\""\""\""Consider and purchase Samsung Galaxy smartphones.\n\nEngage with Samsungâs online campaigns and promotions.\n\nIncrease brand loyalty and advocacy through referrals.\""\""\"""",""toneCommunication"":""Innovative, premium, confident, yet approachable and consumer-friendly."",""functionalReasons"":""\""\""\""Advanced camera and display technology.\n\nLong-lasting battery life and fast charging.\n\nRegular software updates and security features.\n\nWide product range catering to different budgets.\""\""\"""",""emotionalReasons"":""\""\""\""Ownership of a status-enhancing, premium device.\n\nFeeling of being connected, productive, and ahead in tech trends.\n\nAssurance of quality and reliability from a trusted global brand.\""\""\"""",""kpis"":""\""\""\""Increase in sales of Samsung Galaxy smartphones by X% in the next 6 months.\n\nGrowth in social media engagement (likes, shares, comments).\n\nHigher customer retention and repeat purchase rates.\n\nImproved brand recall and preference metrics in target segments.\""\""\"""",""dosDonots"":""\""\""\""Doâs: Highlight innovation and premium features, show real-life usage scenarios, focus on aspirational lifestyle.\n\nDonâts: Overcomplicate messaging, make unrealistic claims, neglect after-sales support messaging.\""\""\"""",""budget"":""INR 15â20 Crores for marketing campaigns over 6 months."",""otherInfo"":""\""\""\""Collaborations with influencers and tech reviewers are highly effective.\n\nOmni-channel presence: online marketplaces, brand stores, and retail outlets.\""\""\"""",""complications"":""\""\""\""Apple iPhone: Premium positioning, aspirational, strong brand loyalty.\n\nOnePlus: Strong in mid-range to premium segment, fast-growing fanbase.\n\nXiaomi / Redmi: Aggressive pricing strategy, feature-rich smartphones.\""\""\"""",""key"":""2JqX5I1apubphyMXisXZ3hZCM""},""queryParams"":{},""rawBody"":""{\""clientName\"":\""Samsung Electronics India\"",\""brandProduct\"":\""Samsung Galaxy Smartphones\"",\""problemStatement\"":\""Increasing competition from other smartphone brands like Apple, OnePlus, and Xiaomi has led to a decline in market share for mid-range and premium Samsung smartphones. The goal is to strengthen brand preference and drive sales in key urban markets.\"",\""targetConsumer\"":\""\\\""\\\""\\\""Demographics: Age 18â45, urban professionals and students, middle to upper-middle income, tech-savvy.\\n\\nPsychographics: Aspirational, values innovation, wants status and convenience, early adopters of technology.\\n\\nGeographic: Tier 1 and Tier 2 cities in India.\\n\\nBehavioral: Frequent smartphone upgraders, online shoppers, active on social media, influenced by peers and tech reviews.\\\""\\\""\\\""\"",\""singleMindedProposition\"":\""âSamsung Galaxy empowers you with cutting-edge technology that keeps you ahead in life.â\"",\""desiredAction\"":\""\\\""\\\""\\\""Consider and purchase Samsung Galaxy smartphones.\\n\\nEngage with Samsungâs online campaigns and promotions.\\n\\nIncrease brand loyalty and advocacy through referrals.\\\""\\\""\\\""\"",\""toneCommunication\"":\""Innovative, premium, confident, yet approachable and consumer-friendly.\"",\""functionalReasons\"":\""\\\""\\\""\\\""Advanced camera and display technology.\\n\\nLong-lasting battery life and fast charging.\\n\\nRegular software updates and security features.\\n\\nWide product range catering to different budgets.\\\""\\\""\\\""\"",\""emotionalReasons\"":\""\\\""\\\""\\\""Ownership of a status-enhancing, premium device.\\n\\nFeeling of being connected, productive, and ahead in tech trends.\\n\\nAssurance of quality and reliability from a trusted global brand.\\\""\\\""\\\""\"",\""kpis\"":\""\\\""\\\""\\\""Increase in sales of Samsung Galaxy smartphones by X% in the next 6 months.\\n\\nGrowth in social media engagement (likes, shares, comments).\\n\\nHigher customer retention and repeat purchase rates.\\n\\nImproved brand recall and preference metrics in target segments.\\\""\\\""\\\""\"",\""dosDonots\"":\""\\\""\\\""\\\""Doâs: Highlight innovation and premium features, show real-life usage scenarios, focus on aspirational lifestyle.\\n\\nDonâts: Overcomplicate messaging, make unrealistic claims, neglect after-sales support messaging.\\\""\\\""\\\""\"",\""budget\"":\""INR 15â20 Crores for marketing campaigns over 6 months.\"",\""otherInfo\"":\""\\\""\\\""\\\""Collaborations with influencers and tech reviewers are highly effective.\\n\\nOmni-channel presence: online marketplaces, brand stores, and retail outlets.\\\""\\\""\\\""\"",\""complications\"":\""\\\""\\\""\\\""Apple iPhone: Premium positioning, aspirational, strong brand loyalty.\\n\\nOnePlus: Strong in mid-range to premium segment, fast-growing fanbase.\\n\\nXiaomi / Redmi: Aggressive pricing strategy, feature-rich smartphones.\\\""\\\""\\\""\"",\""key\"":\""2JqX5I1apubphyMXisXZ3hZCM\""}""}</script>
+
+        <!-- Large market intelligence placeholder (pipeline may replace) -->
+        <script id=""market-raw"" type=""text/plain"">
+# COMPREHENSIVE MARKET INTELLIGENCE & QUANTITATIVE DATA
+## Samsung Galaxy Smartphones - India Market Analysis
+
+...[REDACTED FOR PIPELINE â full block present in original payload]...
+        </script>
+
+        <!-- If automation hasn't replaced market data, JS will fallback to sample arrays -->
+        <main>
+            <section aria-labelledby=""exec-summary"">
+                <h2 id=""exec-summary"">Executive Summary</h2>
+                <p><strong>Goal (12 months):</strong> Acquire an additional <strong>[ESTIMATE] 180,000â450,000</strong> new Samsung Galaxy customers across Tier 1 & Tier 2 urban markets and drive an incremental <strong>[ESTIMATE] â¹3,000â7,000 crores</strong> revenue uplift (â5â10% of segment revenue) by increasing social engagement, community-led advocacy and targeted mid-range offers.</p>
+
+                <h3>Strategic Thesis</h3>
+                <p>Samsung must pivot from purely product-led messaging to a ""Trusted Innovation"" platform that pairs high-quality creative content with community activation and service-led trust. By reallocating spend toward YouTube long-form, scaled micro-influencer programs and UGC, Samsung can close the engagement gap versus OnePlus/Xiaomi and re-capture share in the mid-range battleground.</p>
+                <div class=""kpi-row"">
+                    <div class=""kpi"">12-month market share target: 22â25% [ESTIMATE]</div>
+                    <div class=""kpi"">Engagement target: 10â12%</div>
+                    <div class=""kpi"">Follower growth: +30â40% YoY</div>
+                </div>
+            </section>
+
+            <section aria-labelledby=""market-intel"">
+                <h2 id=""market-intel"">Market & Audience Intelligence</h2>
+                <p>India's smartphone market is projected at ~â¹1.45 lakh crores in 2024 with a 9â11% projected CAGR to 2027. The mid-range segment (â¹20â40K) accounts for ~35â38% of value and is the primary battleground. Tier-2 cities are growing faster (10â12% CAGR) and represent a 35â40% share of market value â a priority expansion area for Samsung.</p>
+
+                <h3>Top 3 Trends (Quantified)</h3>
+                <ol>
+                    <li>5G uptake: 15â20% of devices in 2024 â projected 45â50% by 2027 (large upgrade driver)</li>
+                    <li>UGC & short-form video engagement: Reels/Shorts deliver 3â4x higher engagement vs static â top brands average 8â15% on Reels</li>
+                    <li>Service/Trust matters: 3,000+ service centers is a unique Samsung advantage; promoting it can improve purchase consideration by estimated 8â12% [ESTIMATE]</li>
+                </ol>
+
+                <h3>Market SWOT (quantified)</h3>
+                <ul>
+                    <li><strong>Strength:</strong> Broad portfolio & 3,000+ service centers (coverage advantage vs OnePlus/Xiaomi).</li>
+                    <li><strong>Weakness:</strong> Engagement gap â Instagram engagement 5â7% vs OnePlus 12â15% (gap = -~7%).</li>
+                    <li><strong>Opportunity:</strong> Tier-2 cities growth (10â12% CAGR) â capture mid-range share with targeted bundles.</li>
+                    <li><strong>Threat:</strong> Xiaomi/Redmi price aggression: ~22â24% market share; OnePlus rising in mid-premium (8â10%).</li>
+                </ul>
+
+                <div class=""chart-card"" style=""margin-top:10px;"">
+                    <div class=""chart-title"">Market Growth & Opportunity (Revenue, â¹ Crores)</div>
+                    <div class=""chart-desc"">What the data is: Market revenue 2022â2027 (projected). Why it matters: demonstrates TAM expansion and where to allocate spend.</div>
+                    <div><canvas id=""chart-market-growth"" class=""chart-area"" role=""img"" aria-label=""Market growth line chart showing revenue 2022 to 2027""></canvas></div>
+
+                    <table class=""data-summary"" aria-label=""Market growth numbers"">
+                        <thead><tr><th>Year</th><th>Projected Market (â¹ Crores)</th></tr></thead>
+                        <tbody>
+                            <tr><td>2022</td><td>145,000</td></tr>
+                            <tr><td>2023</td><td>158,000</td></tr>
+                            <tr><td>2024</td><td>172,000</td></tr>
+                            <tr><td>2025 (est)</td><td>190,000</td></tr>
+                            <tr><td>2026 (est)</td><td>200,000</td></tr>
+                            <tr><td>2027 (est)</td><td>210,000</td></tr>
+                        </tbody>
+                    </table>
+
+                    <div class=""summary"">
+                        Actionable steps:
+                        <ol>
+                            <li>Prioritize mid-range offers for Tier-2 (0â90 days): launch localized bundles and trade-in promos to capture 3â5% incremental share.</li>
+                            <li>Allocate 35% of content budget to long-form YouTube & tutorials (30â90 days) to drive high-consideration traffic.</li>
+                            <li>Run Q4 festival amplification (90 days): push trade-in + service guarantees during Diwali to leverage 150â200% uplift window.</li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+
+            <section aria-labelledby=""competitive-intel"">
+                <h2 id=""competitive-intel"">Competitive Intelligence & Positioning</h2>
+                <p>Market-share leaders include Xiaomi (~22â24%), Samsung (~20â22%) and Apple (~15â18%). OnePlus (8â10%) presents the primary mid-premium threat with strong community engagement.</p>
+
+                <div class=""chart-card"">
+                    <div class=""chart-title"">Competitive Positioning Map (Price vs Market Share & Engagement)</div>
+                    <div class=""chart-desc"">What the data is: price positioning (â¹ thousands), market share (%) and social influence (bubble size). Why it matters: clarifies direct threats vs. aspirational brands.</div>
+                    <div><canvas id=""chart-competitor-bubble"" class=""chart-area"" role=""img"" aria-label=""Competitive bubble chart showing price vs market share and social influence""></canvas></div>
+
+                    <table class=""data-summary"" aria-label=""Competitor bubble data"">
+                        <thead><tr><th>Brand</th><th>Avg Price (â¹K)</th><th>Market Share (%)</th><th>Social Size (relative)</th></tr></thead>
+                        <tbody>
+                            <tr><td>Xiaomi</td><td>28</td><td>23</td><td>36</td></tr>
+                            <tr><td>Samsung</td><td>38</td><td>21</td><td>22</td></tr>
+                            <tr><td>OnePlus</td><td>48</td><td>9</td><td>18</td></tr>
+                            <tr><td>Apple</td><td>85</td><td>16</td><td>40</td></tr>
+                        </tbody>
+                    </table>
+
+                    <div class=""summary"">
+                        Actionable steps:
+                        <ol>
+                            <li>(0â30 days) Emphasize service & warranty messaging to differentiate versus OnePlus/Xiaomi â create ""Worry-Free Ownership"" assets for stores and social.</li>
+                            <li>(31â60 days) Launch targeted comparison content vs OnePlus for mid-premium buyers (YouTube + Reels) to reclaim consideration.</li>
+                            <li>(61â90 days) Run micro-influencer trials focusing on performance and service stories in Tier-2 cities; measure lift in consideration metric weekly.</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <h3>Competitive Minis</h3>
+                <p><strong>OnePlus</strong> â Market share ~8â10%, Instagram engagement 12â15%. Signature: community-driven launches. Positioning: ""flagship efficiency"".</p>
+                <p><strong>Xiaomi/Redmi</strong> â Market share ~22â24%, engagement 10â12%. Signature: high-volume promotional blitzes and value messaging. Positioning: ""feature-for-price"".</p>
+                <p><strong>Apple</strong> â Market share ~15â18%, engagement 6â8%. Signature: premium cinematic product films and ecosystem messaging. Positioning: ""aspirational premium"".</p>
+
+                <h3>Whitespace â Tactical Opportunities</h3>
+                <ol>
+                    <li>Service-as-Value: Convert 3,000+ centers into content and trade-in touchpoints to improve trust (measurable uplift in consideration).</li>
+                    <li>Creator Economy: Build ""Galaxy Creator Lab"" for creators (photo, video) â win Priya persona (creators) and user-generated proof.</li>
+                    <li>Mid-Range Value Bundles: Aggressive, limited-time bundles in Tier-2 with EMI & trade-in to close the price-value gap vs Xiaomi.</li>
+                </ol>
+            </section>
+
+            <section aria-labelledby=""audience"">
+                <h2 id=""audience"">Market & Audience â Demographics & Media Habits</h2>
+                <p>Primary audience: ages 25â34 (â38â42% of target), urban professionals and students. Media mix: YouTube (85% research usage), Instagram (primary discovery), TikTok (Gen Z discovery), Reddit for tech enthusiasts.</p>
+
+                <div class=""chart-card"">
+                    <div class=""chart-title"">Audience Age Distribution</div>
+                    <div class=""chart-desc"">What the data is: Age composition; why it matters: tailors content format and channel mix.</div>
+                    <div><canvas id=""chart-age-pie"" class=""chart-area"" role=""img"" aria-label=""Audience age distribution pie chart""></canvas></div>
+
+                    <table class=""data-summary"" aria-label=""Age distribution"">
+                        <thead><tr><th>Age Bracket</th><th>% of Target</th></tr></thead>
+                        <tbody>
+                            <tr><td>18â24</td><td>30%</td></tr>
+                            <tr><td>25â34</td><td>40%</td></tr>
+                            <tr><td>35â44</td><td>20%</td></tr>
+                            <tr><td>45+</td><td>10%</td></tr>
+                        </tbody>
+                    </table>
+
+                    <div class=""summary"">
+                        Actionable steps:
+                        <ol>
+                            <li>(0â30 days) Increase short-form Reels & TikTok targeting 18â24 (30% group) â quick tips & trends to drive trial.</li>
+                            <li>(31â60 days) Launch YouTube education series targeted at 25â34 group (40%) focusing on productivity & camera use.</li>
+                            <li>(61â90 days) Introduce creator-led tutorials and campus ambassador pilots in top Tier-2 cities to convert student cohorts.</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class=""chart-card"" style=""margin-top:10px;"">
+                    <div class=""chart-title"">Platform Preference â Reach Mix</div>
+                    <div class=""chart-desc"">What the data is: channel usage share among target. Why it matters: allocate content & budget by platform.</div>
+                    <div><canvas id=""chart-platform-bar"" class=""chart-area"" role=""img"" aria-label=""Platform preference bar chart""></canvas></div>
+
+                    <table class=""data-summary"" aria-label=""Platform preference"">
+                        <thead><tr><th>Platform</th><th>Share</th></tr></thead>
+                        <tbody>
+                            <tr><td>Instagram</td><td>28%</td></tr>
+                            <tr><td>YouTube</td><td>22%</td></tr>
+                            <tr><td>Facebook</td><td>18%</td></tr>
+                            <tr><td>Twitter/X</td><td>6%</td></tr>
+                            <tr><td>Others (TikTok/Reddit)</td><td>26%</td></tr>
+                        </tbody>
+                    </table>
+
+                    <div class=""summary"">
+                        Actionable steps:
+                        <ol>
+                            <li>(0â30 days) Reallocate creative spend: YouTube 35%, Instagram 25%, TikTok 15% â pilot TikTok promos for Gen-Z.</li>
+                            <li>(31â60 days) Launch platform-specific creative: long-form YouTube tutorials, Instagram Reels tips, TikTok challenges.</li>
+                            <li>(61â90 days) Measure CTRs and CVR by platform; re-balance budget to top 2 performers monthly.</li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+
+            <section aria-labelledby=""brand-foundation"">
+                <h2 id=""brand-foundation"">Brand Strategy & Foundation</h2>
+                <p><strong>Brand Essence:</strong> Trusted Innovation â practical tech that makes everyday life better.</p>
+                <p><strong>Single-Minded Proposition:</strong> Samsung Galaxy: Intelligent Innovation for Everyone.</p>
+
+                <h3>Three Reasons to Believe (RTBs)</h3>
+                <ol>
+                    <li><strong>Functional:</strong> Advanced camera & display across portfolio â drives creative adoption (camera feature adoption projected 50â60% by 2027) [ESTIMATE].</li>
+                    <li><strong>Emotional:</strong> Service & trust â 3,000+ service centers provide peace-of-mind and improve consideration by ~8â12% [ESTIMATE].</li>
+                    <li><strong>Practical:</strong> Portfolio breadth â capability from â¹12Kââ¹180K gives tailored offers increasing conversion at multiple price points.</li>
+                </ol>
+
+                <h3>Platform Radar & 90-Day Focus</h3>
+                <p>Radar shape: YouTube (high), Instagram (high), TikTok (medium), Reddit (medium), Paid Search (support). 90-day focus: Phase 1 (foundations & testing) â 0â30 days; Phase 2 (scale) â 31â60 days; Phase 3 (optimize) â 61â90 days.</p>
+
+                <div class=""kpi-row"" aria-hidden=""true"">
+                    <div class=""kpi"">YouTube: 35% focus</div>
+                    <div class=""kpi"">Instagram: 25% focus</div>
+                    <div class=""kpi"">TikTok: 15% focus</div>
+                    <div class=""kpi"">Influencers: 15% focus</div>
+                </div>
+            </section>
+
+            <section aria-labelledby=""go-to-market"">
+                <h2 id=""go-to-market"">Go-to-Market Content & Campaigns</h2>
+                <p>Top channels and KPIs (monthly / sample budgets):</p>
+
+                <div class=""chart-card"">
+                    <h3>Top 3 Channels & Budgets</h3>
+                    <table class=""data-summary"" aria-label=""Channel budgets and KPIs"">
+                        <thead><tr><th>Channel</th><th>Target KPI</th><th>Monthly Budget (â¹ Lakhs)</th><th>Formats</th></tr></thead>
+                        <tbody>
+                            <tr><td>YouTube</td><td>CTR 2â4%, CVR 2â4%</td><td>40</td><td>Long-form tutorials, Shorts, Live Q&A</td></tr>
+                            <tr><td>Instagram</td><td>Engagement 10â12%, CTR 1.5â3%</td><td>25</td><td>Reels, Carousels, Stories</td></tr>
+                            <tr><td>Micro-Influencers</td><td>Engagement 12â18%, CPA control</td><td>18</td><td>Reviews, UGC seeding, campus pilots</td></tr>
+                        </tbody>
+                    </table>
+
+                    <h3>Top 3 Campaign Ideas (one-line)</h3>
+                    <ol>
+                        <li><strong>#MyGalaxyStory</strong> â UGC contest with monthly themes (creator, student, family) to generate 10â15K monthly submissions.</li>
+                        <li><strong>Galaxy Comparison Series</strong> â YouTube deep-dive ""Galaxy vs Competitor"" practical tests targeting Rohan & Arjun personas.</li>
+                        <li><strong>Service Promise</strong> â ""Same-Day Repair"" regional push for Tier-2 with trade-in incentives during Diwali window.</li>
+                    </ol>
+                </div>
+            </section>
+
+            <section aria-labelledby=""execution"">
+                <h2 id=""execution"">Execution & Measurement â 90-Day Plan</h2>
+                <p>Overview: sprint-based 30-day cycles with clear owners and deliverables.</p>
+
+                <div class=""chart-card"">
+                    <div class=""chart-title"">90-Day Gantt (Implementation Timeline)</div>
+                    <div class=""chart-desc"">What the data is: phased tasks over 90 days. Why it matters: ensures rapid delivery and measurable progress.</div>
+                    <div><canvas id=""chart-gantt"" class=""chart-area"" role=""img"" aria-label=""Gantt style chart for 90 day plan""></canvas></div>
+
+                    <table class=""data-summary"" aria-label=""Gantt task table"">
+                        <thead><tr><th>Task</th><th>Owner</th><th>Start Day</th><th>Duration (days)</th><th>Deliverable</th></tr></thead>
+                        <tbody>
+                            <tr><td>Market Audit & Baselines</td><td>Strategy</td><td>0</td><td>10</td><td>Baseline report, KPIs</td></tr>
+                            <tr><td>Creative Sprint (Assets)</td><td>Creative</td><td>11</td><td>20</td><td>10 videos, 30 social assets</td></tr>
+                            <tr><td>Micro-Influencer Onboarding</td><td>Influencer Mktg</td><td>11</td><td>40</td><td>100 micro partners</td></tr>
+                            <tr><td>Pilot Campaign (Tier-2)</td><td>Activation</td><td>31</td><td>20</td><td>Pilot launch & data</td></tr>
+                            <tr><td>Scale & Optimize</td><td>Media Ops</td><td>51</td><td>30</td><td>Scale plan, A/B results</td></tr>
+                            <tr><td>Community Launch (Reddit/Discord)</td><td>Community</td><td>15</td><td>45</td><td>Live channels, AMA schedule</td></tr>
+                        </tbody>
+                    </table>
+
+                    <div class=""gantt-legend"">
+                        <div class=""legend-item""><span class=""legend-swatch"" style=""background:#e6f7f0;""></span>Planning / Offset</div>
+                        <div class=""legend-item""><span class=""legend-swatch"" style=""background:#1E7B5E;""></span>Active Task</div>
+                    </div>
+
+                    <div class=""summary"">
+                        KPIs per 30-day sprint (baseline â target â delta):
+                        <ul>
+                            <li><strong>0â30 days:</strong> Followers +1â3% â +5% (delta +4%), Engagement 5% â 6.5% (target +1.5%).</li>
+                            <li><strong>31â60 days:</strong> Pilot CVR 1.5% â 2.5% (delta +1.0%), CPA Instagram â¹700 â â¹600 target.</li>
+                            <li><strong>61â90 days:</strong> Scale engagement to 9â10%, follower growth maintain +10% monthly, community membership 25Kâ75K.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section aria-labelledby=""data-insights"">
+                <h2 id=""data-insights"">Data-Driven Insights Summary</h2>
+                <ol>
+                    <li><strong>Insight 1:</strong> Instagram Reels engagement gap (-~7% vs OnePlus). <em>Action:</em> test 50 hook variations in 0â30 days â Owner: Creative. Output: top-10 hooks.</li>
+                    <li><strong>Insight 2:</strong> Micro-influencers yield best ROI (5â10x). <em>Action:</em> onboard 100 micro-influencers in 11â40 days â Owner: Influencer Mktg.</li>
+                    <li><strong>Insight 3:</strong> Tier-2 cities CAGR 10â12%. <em>Action:</em> pilot localized bundles in 31â60 days â Owner: Regional Sales.</li>
+                    <li><strong>Insight 4:</strong> UGC campaigns produce 2â3x share & conversion uplift. <em>Action:</em> launch #MyGalaxyStory Month 1 â Owner: Social.</li>
+                    <li><strong>Insight 5:</strong> Service messaging increases consideration ~8â12% [ESTIMATE]. <em>Action:</em> produce ""Service Stories"" assets in 0â30 days â Owner: Comms.</li>
+                    <li><strong>Insight 6:</strong> Festival windows (OctâNov) provide 150â200% uplift â plan heavy trade-in push and amplify in months 60â90 days into execution.</li>
+                </ol>
+            </section>
+
+            <section aria-labelledby=""conclusion"">
+                <h2 id=""conclusion"">Conclusion & Next Steps</h2>
+                <p>This plan focuses on rapid execution of community-first content, service-led trust messaging and micro-influencer scale to reverse Samsung's mid-range share decline. Execution is phased and measurable with conservative KPI targets.</p>
+
+                <h3>Immediate Actions (Days 0â7)</h3>
+                <ul>
+                    <li>Confirm budget & baseline metrics â Owner: Strategy â Output: Budget scenarios (â¹25L / â¹50L / â¹1Cr)</li>
+                    <li>Launch hook testing on Reels (first 20 variations) â Owner: Creative â Output: engagement ranking</li>
+                </ul>
+
+                <h3>First Month (Days 8â30)</h3>
+                <ul>
+                    <li>Produce first YouTube long-form + 6 Shorts â Owner: Video Production â Output: assets and upload calendar</li>
+                    <li>Launch #MyGalaxyStory UGC (pilot) â Owner: Social â Output: submissions & engagement report</li>
+                </ul>
+
+                <h3>Days 31â90</h3>
+                <ul>
+                    <li>Scale micro-influencer program to 200 partners â Owner: Influencer Mktg â Output: content & performance dashboard</li>
+                    <li>Pilot Tier-2 bundles & track conversions â Owner: Regional Sales â Output: conversion report & scale decision</li>
+                </ul>
+
+                <p style=""margin-top:10px;""><strong>Owner & Approvals:</strong> Strategy Lead (owner), Creative Lead, Media Ops, Influencer Manager, Regional Sales. Ready to implement upon approval.</p>
+            </section>
+
+            <footer aria-labelledby=""disclaimer"">
+                <h3 id=""disclaimer"" style=""margin-top:6px;"">Notes & Assumptions</h3>
+                <p>Many values labeled [ESTIMATE] are conservative projections derived from available market intelligence. All numeric targets should be validated against live baselines prior to campaign scale. This document is optimized for PDF export; charts are rasterized with DPR-scaling for print clarity.</p>
+            </footer>
+        </main>
+
+        <div id=""render-ready"" aria-hidden=""true"">not-ready</div>
+    </div>
+
+    <!-- Hidden fallback dataset parsing and chart rendering logic -->
+    <script>
+    // Defensive parsing of market data and placeholders
+    const rawMarket = document.getElementById('market-raw') ? document.getElementById('market-raw').textContent : '';
+    let marketData = null;
+    try {
+        // Attempt to parse if pipeline replaced with JSON
+        marketData = JSON.parse(rawMarket);
+    } catch (e) {
+        // If not JSON, ignore and use fallback numeric arrays
+        marketData = null;
+    }
+
+    // Fallback numeric datasets (sensible default in case parsing fails)
+    const fallback = {
+        marketGrowthYears: ['2022','2023','2024','2025','2026','2027'],
+        marketGrowthValues: [145000,158000,172000,190000,200000,210000],
+        competitors: [
+            {name:'Xiaomi', price:28, share:23, social:36, engagement:10},
+            {name:'Samsung', price:38, share:21, social:22, engagement:6},
+            {name:'OnePlus', price:48, share:9, social:18, engagement:13},
+            {name:'Apple', price:85, share:16, social:40, engagement:7}
+        ],
+        ageDist: [30,40,20,10],
+        platformMix: {Instagram:28, YouTube:22, Facebook:18, Twitter:6, Others:26},
+        radarBench: {
+            labels:['Reach','Engagement','Conversion','Velocity','CPA-efficiency'],
+            samsung:[6,5,3,4,4],
+            benchmark:[9,12,6,8,7]
+        },
+        roi: {
+            channels:['YouTube','Instagram','Micro-Influencers','UGC','Community','TikTok'],
+            spend:[25,15,12.5,4,5,8], // â¹ Lakhs
+            roiPct:[400,350,750,1000,600,500] // percent multipliers e.g. 400% = 4x
+        },
+        gantt: [
+            {task:'Market Audit & Baselines', start:0, duration:10, color:'#1E7B5E'},
+            {task:'Creative Sprint', start:11, duration:20, color:'#1E7B5E'},
+            {task:'Micro-Influencer Onboarding', start:11, duration:40, color:'#1E7B5E'},
+            {task:'Pilot Campaign (Tier-2)', start:31, duration:20, color:'#1E7B5E'},
+            {task:'Scale & Optimize', start:51, duration:30, color:'#1E7B5E'},
+            {task:'Community Build (Reddit/Discord)', start:15, duration:45, color:'#00D4FF'}
+        ]
+    };
+
+    const data = {
+        marketGrowthYears: marketData && marketData.marketGrowthYears ? marketData.marketGrowthYears : fallback.marketGrowthYears,
+        marketGrowthValues: marketData && marketData.marketGrowthValues ? marketData.marketGrowthValues : fallback.marketGrowthValues,
+        competitors: marketData && marketData.competitors ? marketData.competitors : fallback.competitors,
+        ageDist: marketData && marketData.ageDist ? marketData.ageDist : fallback.ageDist,
+        platformMix: marketData && marketData.platformMix ? marketData.platformMix : fallback.platformMix,
+        radarBench: marketData && marketData.radarBench ? marketData.radarBench : fallback.radarBench,
+        roi: marketData && marketData.roi ? marketData.roi : fallback.roi,
+        gantt: marketData && marketData.gantt ? marketData.gantt : fallback.gantt
+    };
+
+    // Utility to DPR-scale canvas
+    function prepareCanvas(id) {
+        const canvas = document.getElementById(id);
+        const DPR = window.devicePixelRatio || 1;
+        // client width may be calculated after rendering; ensure width
+        const clientW = Math.min(800, canvas.parentElement.clientWidth || 800);
+        canvas.style.width = clientW + 'px';
+        canvas.style.height = '260px';
+        canvas.width = Math.round(clientW * DPR);
+        canvas.height = Math.round(260 * DPR);
+        const ctx = canvas.getContext('2d');
+        ctx.setTransform(DPR,0,0,DPR,0,0);
+        return ctx;
+    }
+
+    // Chart creation functions
+    function createMarketGrowth() {
+        try {
+            const ctx = prepareCanvas('chart-market-growth');
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: data.marketGrowthYears,
+                    datasets: [{
+                        label: 'Market (â¹ Crores)',
+                        data: data.marketGrowthValues,
+                        borderColor: '#1E7B5E',
+                        backgroundColor: 'rgba(30,123,94,0.08)',
+                        fill: true,
+                        tension: 0.3,
+                        pointRadius: 4
+                    }]
+                },
+                options: {
+                    responsive: false,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { display:false } },
+                    scales: {
+                        y: { ticks: { callback: v => 'â¹' + (v/1000).toFixed(0) + 'K Cr' } }
+                    }
+                }
+            });
+        } catch(e) { console.warn('market growth chart failed', e); }
+    }
+
+    function createCompetitorBubble() {
+        try {
+            const ctx = prepareCanvas('chart-competitor-bubble');
+            const datasets = data.competitors.map(c => ({
+                label: c.name,
+                data: [{ x: c.price, y: c.share, r: Math.max(6, c.social / 3)}],
+                backgroundColor: c.name === 'Samsung' ? 'rgba(30,123,94,0.8)' : 'rgba(100,150,200,0.6)',
+                borderColor: '#fff',
+                borderWidth: 1
+            }));
+            new Chart(ctx, {
+                type: 'bubble',
+                data: { datasets },
+                options: {
+                    responsive: false,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { position: 'right' } },
+                    scales: {
+                        x: { title: { display:true, text:'Average Price (â¹K)' } },
+                        y: { title: { display:true, text:'Market Share (%)' } }
+                    }
+                }
+            });
+        } catch(e){ console.warn('competitor bubble fail', e); }
+    }
+
+    function createAgePie() {
+        try {
+            const ctx = prepareCanvas('chart-age-pie');
+            new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['18â24','25â34','35â44','45+'],
+                    datasets: [{
+                        data: data.ageDist,
+                        backgroundColor: ['#00D4FF','#1E7B5E','#64C8FF','#cfcfcf'],
+                        borderColor:'#fff',
+                        borderWidth:1
+                    }]
+                },
+                options: { responsive:false, maintainAspectRatio:false, plugins:{ legend:{ position:'bottom' } } }
+            });
+        } catch(e){ console.warn('age pie fail', e); }
+    }
+
+    function createPlatformBar() {
+        try {
+            const ctx = prepareCanvas('chart-platform-bar');
+            const labels = Object.keys(data.platformMix);
+            const values = labels.map(k => data.platformMix[k]);
+            new Chart(ctx, {
+                type: 'bar',
+                data: { labels, datasets:[{ label:'Share (%)', data: values, backgroundColor:'#1E7B5E' }] },
+                options: { responsive:false, maintainAspectRatio:false, plugins:{ legend:{ display:false } }, scales:{ y:{ beginAtZero:true } } }
+            });
+        } catch(e){ console.warn('platform bar fail', e); }
+    }
+
+    function createPlatformRadar() {
+        try {
+            const ctx = prepareCanvas('chart-platform-radar');
+            new Chart(ctx, {
+                type: 'radar',
+                data: {
+                    labels: data.radarBench.labels,
+                    datasets: [
+                        { label:'Samsung (score)', data: data.radarBench.samsung, backgroundColor:'rgba(30,123,94,0.12)', borderColor:'#1E7B5E' },
+                        { label:'Benchmark (score)', data: data.radarBench.benchmark, backgroundColor:'rgba(0,212,255,0.08)', borderColor:'#00D4FF' }
+                    ]
+                },
+                options: { responsive:false, maintainAspectRatio:false, plugins:{ legend:{ position:'top' } } }
+            });
+        } catch(e){ console.warn('radar fail', e); }
+    }
+
+    function createRoiMixed() {
+        try {
+            const ctx = prepareCanvas('chart-roi-mixed');
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: data.roi.channels,
+                    datasets: [
+                        { label: 'Monthly Spend (â¹ Lakhs)', data: data.roi.spend, backgroundColor:'#1E7B5E', yAxisID:'y' },
+                        { label: 'Projected ROI (%)', data: data.roi.roiPct, type:'line', borderColor:'#00D4FF', backgroundColor:'#00D4FF', yAxisID:'y1', tension:0.3 }
+                    ]
+                },
+                options: {
+                    responsive:false, maintainAspectRatio:false,
+                    scales:{
+                        y:{ position:'left', title:{ display:true, text:'Spend (â¹ Lakhs)' } },
+                        y1:{ position:'right', title:{ display:true, text:'ROI (%)' }, grid:{ drawOnChartArea:false } }
+                    },
+                    plugins:{ legend:{ position:'top' } }
+                }
+            });
+        } catch(e){ console.warn('roi mixed fail', e); }
+    }
+
+    function createGantt() {
+        try {
+            const ctx = prepareCanvas('chart-gantt');
+            // Prepare labels and datasets
+            const labels = data.gantt.map(t => t.task);
+            const offsets = data.gantt.map(t => t.start);
+            const durations = data.gantt.map(t => t.duration);
+            // Transparent offset bars
+            const offsetColor = 'rgba(0,0,0,0)';
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels,
+                    datasets: [
+                        { label:'Offset', data: offsets, backgroundColor: offsetColor, borderWidth:0 },
+                        { label:'Duration (days)', data: durations, backgroundColor: data.gantt.map(g=>g.color || '#1E7B5E') }
+                    ]
+                },
+                options: {
+                    indexAxis: 'y',
+                    responsive:false, maintainAspectRatio:false,
+                    plugins:{ legend:{ position:'bottom' } },
+                    scales:{ x:{ stacked:true, title:{ display:true, text:'Days' } }, y:{ stacked:true } }
+                }
+            });
+        } catch(e){ console.warn('gantt fail', e); }
+    }
+
+    // Render all charts and then signal ready for PDF conversion
+    async function renderAllCharts(){
+        createMarketGrowth();
+        createCompetitorBubble();
+        createAgePie();
+        createPlatformBar();
+        createPlatformRadar();
+        createRoiMixed();
+        createGantt();
+
+        // allow chart.js to render and browser to rasterize
+        await new Promise(r => setTimeout(r, 800));
+        // safety timeout additional
+        setTimeout(()=>{ window.renderComplete = true; document.getElementById('render-ready').textContent = 'ready'; document.getElementById('render-ready').style.display='block'; }, 1400);
+    }
+
+    // Initialize and create charts on DOMContentLoaded
+    document.addEventListener('DOMContentLoaded', function(){
+        window.renderComplete = false;
+        try { renderAllCharts(); } catch(e) { console.error(e); window.renderComplete = true; document.getElementById('render-ready').textContent = 'ready'; document.getElementById('render-ready').style.display='block'; }
+    });
+    </script>
+</body>
+</html>"

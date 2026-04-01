@@ -1,0 +1,141 @@
+Title,Date,Time,Mom Summary
+Project Workflow Discussion,2026-01-19,20:31,"<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Minutes of Meeting</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+            padding: 20px;
+            margin: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 5px;
+        }
+        .meeting-info {
+            background-color: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+        .meeting-info p {
+            margin: 5px 0;
+        }
+        h2 {
+            color: #2c3e50;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            border-left: 4px solid #3498db;
+            padding-left: 12px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            margin-bottom: 12px;
+            padding-left: 25px;
+            position: relative;
+        }
+        li:before {
+            content: ""•"";
+            color: #3498db;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+        .action-item {
+            background-color: #f0f7ff;
+            padding: 12px;
+            border-radius: 5px;
+            margin-bottom: 12px;
+        }
+        .action-item strong {
+            color: #2c3e50;
+        }
+        .detail {
+            color: #555;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class=""container"">
+        <h1>Project Workflow Discussion</h1>
+        
+        <div class=""meeting-info"">
+            <p><strong>Date:</strong> 20 January 2026</p>
+            <p><strong>Time:</strong> 11:00 AM – 12:00 PM</p>
+            <p><strong>Location:</strong> Google Meet</p>
+            <p><strong>Attendees:</strong> Suraj, Rahul, Neha, Product Team</p>
+        </div>
+
+        <h2>Meeting Summary</h2>
+        <ul>
+            <li>Project status update provided with focus on current workflow progress and deliverables</li>
+            <li>API integration is currently 70% complete with ongoing development activities</li>
+            <li>UI dashboard is pending final design approval before deployment</li>
+            <li>Client requirement identified: prediction data must be delivered in JSON format</li>
+            <li>Database schema finalization required by end of business day with immediate attention to missing current_price_usd column</li>
+            <li>Supabase table structure requires modification to accommodate updated requirements</li>
+            <li>API response delay concerns raised; caching strategy proposed for price data optimization</li>
+            <li>Cron job interval needs adjustment from current setting to 12-hour intervals</li>
+            <li>Client has requested weekly funding data module as an additional feature</li>
+            <li>SerpAPI free plan limitations discussed; alternative USD price-only coin API integration needed</li>
+            <li>Next product demonstration scheduled for Friday</li>
+        </ul>
+
+        <h2>Action Items</h2>
+        <div class=""action-item"">
+            <strong>Update Database Schema</strong>
+            <div class=""detail"">Owner: Suraj | Deadline: End of Day (20 January 2026)</div>
+        </div>
+        <div class=""action-item"">
+            <strong>Optimize API Response Speed</strong>
+            <div class=""detail"">Owner: Rahul</div>
+        </div>
+        <div class=""action-item"">
+            <strong>Implement Cache Layer for Price Data</strong>
+            <div class=""detail"">Owner: Neha</div>
+        </div>
+        <div class=""action-item"">
+            <strong>Update Cron Job to 12-Hour Interval</strong>
+            <div class=""detail"">Owner: Suraj</div>
+        </div>
+        <div class=""action-item"">
+            <strong>Prepare Demo Dashboard</strong>
+            <div class=""detail"">Owner: Team | Deadline: Friday (24 January 2026)</div>
+        </div>
+        <div class=""action-item"">
+            <strong>Select and Integrate Free Funding API</strong>
+            <div class=""detail"">Owner: To be assigned</div>
+        </div>
+        <div class=""action-item"">
+            <strong>Finalize UI Color Theme</strong>
+            <div class=""detail"">Owner: To be assigned</div>
+        </div>
+        <div class=""action-item"">
+            <strong>Obtain Approval for Live Trading Module</strong>
+            <div class=""detail"">Owner: To be assigned</div>
+        </div>
+    </div>
+</body>
+</html>"
